@@ -4,10 +4,10 @@
 //
 //  Created by Lars Severson on 11/27/23.
 //
-
 struct Profile {
-    var imageName: String
-    var name: String // Add name property
+    var imageNames: [String]
+    var name: String
+    var age: Int
+    var bio: String
+    var interests: [String]
 }
-
-

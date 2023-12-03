@@ -12,22 +12,22 @@ struct ContentView: View {
     @State private var likedProfiles = [Profile]() // State variable for liked profiles
     var body: some View {
         TabView {
-            DatingAppBrowseView(profiles: profiles, likedProfiles: $likedProfiles)
+            BrowseView(profiles: profiles, likedProfiles: $likedProfiles)
                 .tabItem {
                     Label("Browse", systemImage: "flame.fill")
                 }
             
-            LikedProfilesView(likedProfiles: likedProfiles)
+            LikedView(likedProfiles: likedProfiles)
                 .tabItem {
                     Label("Liked", systemImage: "heart.fill")
                 }
             
-            MessagesView()
+            MessagesView(conversations: conversations)
                 .tabItem {
                     Label("Messages", systemImage: "message.fill")
                 }
             
-            UserProfileView()
+            ProfileView(profile: userProfile)
                 .tabItem {
                     Label("Profile", systemImage: "person.fill")
                 }
@@ -35,13 +35,6 @@ struct ContentView: View {
     }
 }
 
-// Dummy profiles for preview
-let profiles = [
-    Profile(imageName: "random1", name: "Alex"),
-    Profile(imageName: "random2", name: "Sam"),
-    Profile(imageName: "random3", name: "Jordan")
-    // Add more profiles as needed
-]
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {

@@ -7,9 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E75469112B15290D00AD37E9 /* DatingAppBrowseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75469102B15290D00AD37E9 /* DatingAppBrowseView.swift */; };
+		E75469112B15290D00AD37E9 /* BrowseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75469102B15290D00AD37E9 /* BrowseView.swift */; };
 		E75469132B15292A00AD37E9 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75469122B15292A00AD37E9 /* Profile.swift */; };
-		E75469152B1540AB00AD37E9 /* DatingAppLikedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75469142B1540AB00AD37E9 /* DatingAppLikedView.swift */; };
 		E75469172B1549D300AD37E9 /* CloneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75469162B1549D300AD37E9 /* CloneView.swift */; };
 		E79FE0982B0C0F1D0062035A /* CloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79FE0972B0C0F1D0062035A /* CloneApp.swift */; };
 		E79FE09C2B0C0F1F0062035A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E79FE09B2B0C0F1F0062035A /* Assets.xcassets */; };
@@ -17,6 +16,10 @@
 		E79FE0A92B0C0F1F0062035A /* CloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79FE0A82B0C0F1F0062035A /* CloneTests.swift */; };
 		E79FE0B32B0C0F1F0062035A /* CloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79FE0B22B0C0F1F0062035A /* CloneUITests.swift */; };
 		E79FE0B52B0C0F1F0062035A /* CloneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79FE0B42B0C0F1F0062035A /* CloneUITestsLaunchTests.swift */; };
+		E7C88A412B195BC8009D6BB1 /* LikedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C88A402B195BC8009D6BB1 /* LikedView.swift */; };
+		E7C88A432B195BEC009D6BB1 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C88A422B195BEC009D6BB1 /* ProfileView.swift */; };
+		E7C88A452B195EF2009D6BB1 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C88A442B195EF2009D6BB1 /* MessageView.swift */; };
+		E7C88A472B1D1880009D6BB1 /* FakeDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C88A462B1D1880009D6BB1 /* FakeDatabase.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,9 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E75469102B15290D00AD37E9 /* DatingAppBrowseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatingAppBrowseView.swift; sourceTree = "<group>"; };
+		E75469102B15290D00AD37E9 /* BrowseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseView.swift; sourceTree = "<group>"; };
 		E75469122B15292A00AD37E9 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
-		E75469142B1540AB00AD37E9 /* DatingAppLikedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatingAppLikedView.swift; sourceTree = "<group>"; };
 		E75469162B1549D300AD37E9 /* CloneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloneView.swift; sourceTree = "<group>"; };
 		E79FE0942B0C0F1D0062035A /* Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E79FE0972B0C0F1D0062035A /* CloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloneApp.swift; sourceTree = "<group>"; };
@@ -50,6 +52,10 @@
 		E79FE0AE2B0C0F1F0062035A /* CloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E79FE0B22B0C0F1F0062035A /* CloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloneUITests.swift; sourceTree = "<group>"; };
 		E79FE0B42B0C0F1F0062035A /* CloneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloneUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E7C88A402B195BC8009D6BB1 /* LikedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikedView.swift; sourceTree = "<group>"; };
+		E7C88A422B195BEC009D6BB1 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		E7C88A442B195EF2009D6BB1 /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+		E7C88A462B1D1880009D6BB1 /* FakeDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeDatabase.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,10 +109,13 @@
 				E79FE0972B0C0F1D0062035A /* CloneApp.swift */,
 				E79FE09B2B0C0F1F0062035A /* Assets.xcassets */,
 				E79FE09D2B0C0F1F0062035A /* Preview Content */,
-				E75469102B15290D00AD37E9 /* DatingAppBrowseView.swift */,
+				E75469102B15290D00AD37E9 /* BrowseView.swift */,
 				E75469122B15292A00AD37E9 /* Profile.swift */,
-				E75469142B1540AB00AD37E9 /* DatingAppLikedView.swift */,
 				E75469162B1549D300AD37E9 /* CloneView.swift */,
+				E7C88A402B195BC8009D6BB1 /* LikedView.swift */,
+				E7C88A422B195BEC009D6BB1 /* ProfileView.swift */,
+				E7C88A442B195EF2009D6BB1 /* MessageView.swift */,
+				E7C88A462B1D1880009D6BB1 /* FakeDatabase.swift */,
 			);
 			path = Clone;
 			sourceTree = "<group>";
@@ -266,11 +275,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E75469112B15290D00AD37E9 /* DatingAppBrowseView.swift in Sources */,
+				E75469112B15290D00AD37E9 /* BrowseView.swift in Sources */,
+				E7C88A472B1D1880009D6BB1 /* FakeDatabase.swift in Sources */,
 				E75469132B15292A00AD37E9 /* Profile.swift in Sources */,
 				E79FE0982B0C0F1D0062035A /* CloneApp.swift in Sources */,
 				E75469172B1549D300AD37E9 /* CloneView.swift in Sources */,
-				E75469152B1540AB00AD37E9 /* DatingAppLikedView.swift in Sources */,
+				E7C88A432B195BEC009D6BB1 /* ProfileView.swift in Sources */,
+				E7C88A452B195EF2009D6BB1 /* MessageView.swift in Sources */,
+				E7C88A412B195BC8009D6BB1 /* LikedView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
