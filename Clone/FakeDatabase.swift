@@ -12,7 +12,8 @@ let userProfile = Profile(
     name: "Lars",
     age: 23,
     bio: "YOLO",
-    interests: ["Skiing"])
+    interests: ["Skiing"]
+)
 
 // Dummy profiles for preview
 let profiles = [

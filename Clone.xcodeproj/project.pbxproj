@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E72472452B1D4B030016386B /* FilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72472442B1D4B030016386B /* FilterView.swift */; };
 		E75469112B15290D00AD37E9 /* BrowseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75469102B15290D00AD37E9 /* BrowseView.swift */; };
 		E75469132B15292A00AD37E9 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75469122B15292A00AD37E9 /* Profile.swift */; };
 		E75469172B1549D300AD37E9 /* CloneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75469162B1549D300AD37E9 /* CloneView.swift */; };
@@ -40,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E72472442B1D4B030016386B /* FilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterView.swift; sourceTree = "<group>"; };
 		E75469102B15290D00AD37E9 /* BrowseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseView.swift; sourceTree = "<group>"; };
 		E75469122B15292A00AD37E9 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		E75469162B1549D300AD37E9 /* CloneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloneView.swift; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 				E7C88A422B195BEC009D6BB1 /* ProfileView.swift */,
 				E7C88A442B195EF2009D6BB1 /* MessageView.swift */,
 				E7C88A462B1D1880009D6BB1 /* FakeDatabase.swift */,
+				E72472442B1D4B030016386B /* FilterView.swift */,
 			);
 			path = Clone;
 			sourceTree = "<group>";
@@ -279,6 +282,7 @@
 				E7C88A472B1D1880009D6BB1 /* FakeDatabase.swift in Sources */,
 				E75469132B15292A00AD37E9 /* Profile.swift in Sources */,
 				E79FE0982B0C0F1D0062035A /* CloneApp.swift in Sources */,
+				E72472452B1D4B030016386B /* FilterView.swift in Sources */,
 				E75469172B1549D300AD37E9 /* CloneView.swift in Sources */,
 				E7C88A432B195BEC009D6BB1 /* ProfileView.swift in Sources */,
 				E7C88A452B195EF2009D6BB1 /* MessageView.swift in Sources */,

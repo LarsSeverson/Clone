@@ -10,6 +10,7 @@ import SwiftUI
 // Main ContentView with TabView
 struct ContentView: View {
     @State private var likedProfiles = [Profile]() // State variable for liked profiles
+    @State private var userMatches: [Profile] = [profiles[2], profiles[1]]
     var body: some View {
         TabView {
             BrowseView(profiles: profiles, likedProfiles: $likedProfiles)
@@ -22,12 +23,12 @@ struct ContentView: View {
                     Label("Liked", systemImage: "heart.fill")
                 }
             
-            MessagesView(conversations: conversations)
+            MessagesView(conversations: conversations, matches: $userMatches)
                 .tabItem {
                     Label("Messages", systemImage: "message.fill")
                 }
             
-            ProfileView(profile: userProfile)
+            ProfileView(profile: userProfile, isMatch: false, startChat: { _ in})
                 .tabItem {
                     Label("Profile", systemImage: "person.fill")
                 }

@@ -2,7 +2,10 @@ import SwiftUI
 
 struct ProfileView: View {
     let profile: Profile
+    let isMatch: Bool
+    var startChat: (Profile) -> Void
 
+    
     var body: some View {
         ScrollView {
             VStack {
@@ -38,6 +41,21 @@ struct ProfileView: View {
                     }
                 }
                 .padding()
+
+                // Message Button - Only if it's a match
+                if isMatch {
+                    Button("Send Message") {
+                        startChat(profile)
+                    }
+                    .frame(maxWidth: .infinity)
+                    .padding()
+                    .background(Color.blue)
+                    .foregroundColor(.white)
+                    .cornerRadius(10)
+                    .padding()
+                    
+                    
+                }
 
                 Spacer()
             }
