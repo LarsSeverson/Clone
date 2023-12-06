@@ -21,14 +21,14 @@ struct Conversation {
 
 struct ConversationDetailView: View {
     @State private var newMessageText = ""
-    @State var conversation: Conversation // Changed to @State for local demo
+    @State var conversation: Conversation
 
     var body: some View {
         VStack {
             List {
                 ForEach(conversation.messages) { message in
                     HStack {
-                        if message.senderName == "User" { // Adjust this condition based on your current user identification logic
+                        if message.senderName == "User" {
                             Spacer()
                             messageBubble(for: message, color: .blue)
                         } else {
@@ -130,7 +130,7 @@ struct MessagesView: View {
 
 
 struct MatchesView: View {
-    var matches: [Profile] // Your Profile data for matches
+    var matches: [Profile] // Profile data for matches
     var startChat: (Profile) -> Void // Callback function to start a chat
 
     var body: some View {
